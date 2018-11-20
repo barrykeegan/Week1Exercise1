@@ -1,0 +1,15 @@
+﻿body {
+    background-color: darkgray;
+    color: green;
+}
+
+.label::after
+{
+    content:"\A";
+    white-space:pre;
+}
+
+.inputLabel
+{
+    height:35px;
+}
